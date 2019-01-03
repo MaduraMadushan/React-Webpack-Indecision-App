@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import IndecisionApp from './components/IndecisionApp';
 
-const template = <h1>Hello React</h1>;
-ReactDOM.render(template, document.getElementById('app'));
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
+  
